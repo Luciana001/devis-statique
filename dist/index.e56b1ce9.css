@@ -248,38 +248,6 @@ img, video {
   --tw-contain-style: ;
 }
 
-.title-primary {
-  color: rgb(5 150 105 / var(--tw-text-opacity));
-  --tw-text-opacity: 1;
-  font-size: 2.25rem;
-  font-weight: 600;
-  line-height: 2.5rem;
-}
-
-@media (width >= 1024px) {
-  .title-primary {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-}
-
-.subtitle {
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-  --tw-text-opacity: 1;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2rem;
-}
-
-@media (width >= 1024px) {
-  .subtitle {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
 .relative {
   position: relative;
 }
@@ -659,6 +627,11 @@ img, video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -692,6 +665,11 @@ img, video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.text-emerald-600 {
+  color: rgb(5 150 105 / var(--tw-text-opacity));
+  --tw-text-opacity: 1;
 }
 
 .text-slate-500 {
@@ -975,6 +953,11 @@ img, video {
     line-height: 2.5rem;
   }
 
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .lg\:shadow-md {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     --tw-shadow: 0 4px 6px -1px #0000001a, 0 2px 4px -2px #0000001a;
@@ -1015,14 +998,6 @@ img, video {
   .xl\:border-slate-300 {
     border-color: rgb(203 213 225 / var(--tw-border-opacity));
     --tw-border-opacity: 1;
-  }
-
-  .xl\:p-24 {
-    padding: 6rem;
-  }
-
-  .xl\:p-16 {
-    padding: 4rem;
   }
 
   .xl\:p-12 {
