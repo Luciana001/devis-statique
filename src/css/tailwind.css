@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title-primary {
+        @apply text-4xl lg:text-7xl font-semibold text-emerald-600 ;
+    }
+    .subtitle {
+        @apply text-slate-900 text-2xl lg:text-4xl font-semibold my-4;
+    }
+ 
+}
+
